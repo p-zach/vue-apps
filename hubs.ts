@@ -183,6 +183,8 @@ import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
 
+import PZ from './src/apps/PZ/PZ_test/hubs'
+
 export {
     // for updating ethereal once per tick
     systemTick, initializeEthereal,
@@ -221,7 +223,7 @@ export {
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3}
+    hubsTest1, hubsTest2, hubsTest3, PZ}
 
 
 
