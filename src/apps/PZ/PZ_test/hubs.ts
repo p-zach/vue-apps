@@ -9,7 +9,7 @@ class HubsApp extends HubsAppProto {
 }
 
 var init = function(params: any = {}) {
-    let app = new HubsApp(900,500, params)
+    let app = new HubsApp(1000,900, params)
     app.mount()
     return app
 }
