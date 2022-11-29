@@ -43,23 +43,6 @@ button[data-v-1d144fe5] {
   padding: 16px 32px;
 }
 
-.middle[data-v-655b619c] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-655b619c] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
 .middle[data-v-29a8adb9] {
   transition: .5s ease;
   opacity: 0;
@@ -94,8 +77,47 @@ button[data-v-1d144fe5] {
   padding: 16px 32px;
 }
 
+.middle[data-v-655b619c] {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.textx[data-v-655b619c] {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 #example1[data-v-156a635a] {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img_Hover2[data-v-0cfb0fd4]:hover{
+outline: #333 solid 4px;
+}
+
+
+.middle[data-v-12a4a6aa] {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.textx[data-v-12a4a6aa] {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v4.0 | 20180602
@@ -397,44 +419,48 @@ a:hover {
   outline: #2370FD solid 2px;
 
 }
-.img_Hover2[data-v-0cfb0fd4]:hover{
-outline: #333 solid 4px;
-}
-
-
-.middle[data-v-12a4a6aa] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-12a4a6aa] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-/* .grad1 {
-  background-image: linear-gradient(to bottom right, #DDD, #999);
-}
-.plaquebold {
-  color: black;
-  text-align: left;
+.gallery-section-title[data-v-dda379de] {
   font-weight: bold;
-  font-size: 24pt;
+  font-size: 1.4em;
 }
-.plaquesub {
-  color: black;
-  text-align: left;
+.gallery-subsection-title[data-v-dda379de] {
   font-style: italic;
-  font-size: 16pt;
-  line-height: 0.4;
-} */
+}
+.gallery-section[data-v-dda379de] {
+  padding-left: 10px;
+}
+.gallery-subsection[data-v-dda379de] {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.number-circle[data-v-dda379de] {
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  /* font-size: 16px; */
+  font-weight: bold;
+  margin: 2px;
+}
+.number-circle[data-v-dda379de]:before,
+.number-circle[data-v-dda379de]:after {
+  content: '\200B';
+  display: inline-block;
+  line-height: 0px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+.number-circle[data-v-dda379de]:before {
+  padding-left: 8px;
+}
+.number-circle[data-v-dda379de]:after {
+  padding-right: 8px;
+}
+.number-circle.two-digit[data-v-dda379de]:before {
+  padding-left: 4px;
+}
+.number-circle.two-digit[data-v-dda379de]:after {
+  padding-right: 4px;
+}
 
 a[data-v-9ffe3f52] {
   color: #b542b9;

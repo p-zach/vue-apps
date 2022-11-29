@@ -447,19 +447,45 @@ outline: #333 solid 4px;
   padding: 16px 32px;
 }
 
-/* .grad1 {
-  background-image: linear-gradient(to bottom right, #DDD, #999);
-}
-.plaquebold {
-  color: black;
-  text-align: left;
+.gallery-section-title[data-v-b4e8b4d2] {
   font-weight: bold;
-  font-size: 24pt;
+  font-size: 1.4em;
 }
-.plaquesub {
-  color: black;
-  text-align: left;
+.gallery-subsection-title[data-v-b4e8b4d2] {
   font-style: italic;
-  font-size: 16pt;
-  line-height: 0.4;
-} */
+}
+.gallery-section[data-v-b4e8b4d2] {
+  padding-left: 10px;
+}
+.gallery-subsection[data-v-b4e8b4d2] {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.number-circle[data-v-b4e8b4d2] {
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  /* font-size: 16px; */
+  font-weight: bold;
+  margin: 2px;
+}
+.number-circle[data-v-b4e8b4d2]:before,
+.number-circle[data-v-b4e8b4d2]:after {
+  content: '\200B';
+  display: inline-block;
+  line-height: 0px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+.number-circle[data-v-b4e8b4d2]:before {
+  padding-left: 8px;
+}
+.number-circle[data-v-b4e8b4d2]:after {
+  padding-right: 8px;
+}
+.number-circle.two-digit[data-v-b4e8b4d2]:before {
+  padding-left: 4px;
+}
+.number-circle.two-digit[data-v-b4e8b4d2]:after {
+  padding-right: 4px;
+}
