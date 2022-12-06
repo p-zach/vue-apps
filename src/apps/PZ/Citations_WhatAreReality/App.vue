@@ -19,7 +19,7 @@
           <p><span class="number-circle">6</span> Ibid.</p>
         </div>
       </div>
-      <p class="gallery-section-title">What are reality media?</p>
+      <p class="gallery-section-title">What are AR and VR?</p>
       <div class="gallery-section">
         <div class="gallery-subsection">
           <p class="gallery-subsection-title">Pioneers</p>
