@@ -43,6 +43,23 @@ button[data-v-1d144fe5] {
   padding: 16px 32px;
 }
 
+.middle[data-v-655b619c] {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.textx[data-v-655b619c] {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 .middle[data-v-29a8adb9] {
   transition: .5s ease;
   opacity: 0;
@@ -71,23 +88,6 @@ button[data-v-1d144fe5] {
   text-align: center;
 }
 .textx[data-v-94fe1dfc] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-655b619c] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-655b619c] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
@@ -419,47 +419,64 @@ a:hover {
   outline: #2370FD solid 2px;
 
 }
-.gallery-section-title[data-v-dda379de] {
+
+/* CSS for rotunda wall citation map text boxes */
+.gallery-section-title {
   font-weight: bold;
   font-size: 1.4em;
 }
-.gallery-subsection-title[data-v-dda379de] {
+.gallery-subsection-title {
   font-style: italic;
 }
-.gallery-section[data-v-dda379de] {
+.gallery-section {
   padding-left: 10px;
 }
-.gallery-subsection[data-v-dda379de] {
+.gallery-subsection {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-.number-circle[data-v-dda379de] {
+
+.number-circle {
   display: inline-block;
   border-radius: 50%;
   background: #fff;
-  /* font-size: 16px; */
+  font-size: .8em;
   font-weight: bold;
-  margin: 2px;
+  margin: 2px; /* Changing this value effectively changes spacing between lines with number circles */
 }
-.number-circle[data-v-dda379de]:before,
-.number-circle[data-v-dda379de]:after {
+
+.number-circle:before,
+.number-circle:after {
   content: '\200B';
   display: inline-block;
   line-height: 0px;
   padding-top: 50%;
-  padding-bottom: 50%;
+  padding-bottom: 45%;
 }
-.number-circle[data-v-dda379de]:before {
-  padding-left: 8px;
+.number-circle:before {
+  padding-left: 6px;
 }
-.number-circle[data-v-dda379de]:after {
-  padding-right: 8px;
+.number-circle:after {
+  padding-right: 6px;
 }
-.number-circle.two-digit[data-v-dda379de]:before {
-  padding-left: 4px;
+.number-circle.two-digit:before {
+  padding-left: 3px;
 }
-.number-circle.two-digit[data-v-dda379de]:after {
-  padding-right: 4px;
+.number-circle.two-digit:after {
+  padding-right: 3px;
+}
+a[data-v-06a9f319] {
+  color: #b542b9;
+}
+button[data-v-06a9f319] {
+  width: 150px;
+}
+.fade[data-v-06a9f319] {
+  color: #9803a5;
+  /* transition: color 1s; */
+}
+.fade[data-v-06a9f319]:hover {
+  color: #a78e06;
 }
 
 a[data-v-9ffe3f52] {
@@ -474,18 +491,4 @@ button[data-v-9ffe3f52] {
 }
 .fade[data-v-9ffe3f52]:hover {
   color: #06a71b;
-}
-
-a[data-v-06a9f319] {
-  color: #b542b9;
-}
-button[data-v-06a9f319] {
-  width: 150px;
-}
-.fade[data-v-06a9f319] {
-  color: #9803a5;
-  /* transition: color 1s; */
-}
-.fade[data-v-06a9f319]:hover {
-  color: #a78e06;
 }
