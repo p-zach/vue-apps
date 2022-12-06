@@ -66,51 +66,5 @@ import "../../../assets/room.css"
 
 <style scoped>
 
-.gallery-section-title {
-  font-weight: bold;
-  font-size: 1.4em;
-}
-.gallery-subsection-title {
-  font-style: italic;
-}
-.gallery-section {
-  padding-left: 10px;
-}
-.gallery-subsection {
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
 
-.number-circle {
-  display: inline-block;
-  border-radius: 50%;
-  background: #fff;
-  /* font-size: 16px; */
-  font-weight: bold;
-  margin: 2px;
-}
-
-.number-circle:before,
-.number-circle:after {
-  content: '\200B';
-  display: inline-block;
-  line-height: 0px;
-  padding-top: 50%;
-  padding-bottom: 50%;
-}
-
-.number-circle:before {
-  padding-left: 8px;
-}
-
-.number-circle:after {
-  padding-right: 8px;
-}
-
-.number-circle.two-digit:before {
-  padding-left: 4px;
-}
-.number-circle.two-digit:after {
-  padding-right: 4px;
-}
 </style>

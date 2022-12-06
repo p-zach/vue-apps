@@ -183,7 +183,9 @@ import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
 
-import PZ from './src/apps/PZ/PZ_test/hubs'
+import Citations_Genres from './src/apps/PZ/Citations_Genres/hubs'
+import Citations_PresAur from './src/apps/PZ/Citations_PresAur/hubs'
+import Citations_WhatAreReality from './src/apps/PZ/Citations_WhatAreReality/hubs'
 
 export {
     // for updating ethereal once per tick
@@ -223,7 +225,7 @@ export {
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3, PZ}
+    hubsTest1, hubsTest2, hubsTest3, Citations_Genres, Citations_PresAur, Citations_WhatAreReality}
 
 
 
